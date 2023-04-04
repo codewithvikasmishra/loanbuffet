@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up Page</title>
+</head>
+<body style="background-color: aquamarine;">
+    {% if error %}  
+        <p style="color: red;"><strong>Error</strong>: {{error}}</p>  
+    {% endif %}  
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    <h1>Welcome!</h1>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form name="logindata" action="{{url_for('loginpage')}}" method="post">
+                        <p> <label>Username/Email address<span>*</span></label> <input type="email" placeholder="Username or Email" name="uname" required> </p>
+                        <p> <label>Password<span>*</span></label> <input type="password" placeholder="Password" name="pwd" required> </p>
+                        <p> <button onclick="loggedin()" type="submit" class="signin">Sign In</button> 
+                            <script>
+                                function loggedin() {
+                                  alert("Hello! You are logged in your account now.");
+                                }
+                                </script>
+                        </p>
+
+                        <p> <a href="">Forgot password?</a> </p>
+
+                        <p>Create your account.<br>For Free!</p> <a href="signup.html" class="btn">Sign Up</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <footer style="background-color: gray;">
+        <p style="color: whitesmoke;">Follow Us</p>
+        <a target="_blank" href="https://twitter.com/bankbazaar" title="LoanBuffet Twitter" style="color: whitesmoke;"><img src="../static/images/twitter.jpg" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a target="_blank" href="https://www.linkedin.com/company/bank_bazaar" title="LoanBuffet Linkedin" style="color: whitesmoke;"><img src="../static/images/linkedin.png" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a target="_blank" href="https://www.facebook.com/bankbazaar/" title="LoanBuffet Facebook" style="color: whitesmoke;"><img src="../static/images/facebook.png" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a target="_blank" href="https://instagram.com/bankbazaar/" title="LoanBuffet Instagram" style="color: whitesmoke;"><img src="../static/images/instagram.jpg" alt="" width="20"></a>
+
+        <br>
+        <br>
+        <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+        <br>
+        <p>Copyright &copy; 2023 LoanBuffet.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,478 @@
+[INFO][db-connection][2023-03-27 23:04:36,068]: Data fetched from userform
+[INFO][db-connection][2023-03-27 23:04:36,069]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-27 23:36:20,784]: Data fetched from userform
+[INFO][db-connection][2023-03-27 23:36:20,785]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-27 23:36:20,786]: Collection(Database(MongoClient(host=['ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-3xt2ax-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'loanbuffet'), 'loanbuffet')
+[INFO][db-connection][2023-03-27 23:44:03,412]: Data fetched from userform
+[INFO][db-connection][2023-03-27 23:44:03,413]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-27 23:44:03,413]: {'request_raised_for': 'Credit Card', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Male', 'dob': '2023-03-02', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '43244', 'liability': '234', 'dependent': '1'}
+[INFO][db-connection][2023-03-27 23:44:03,414]: Collection(Database(MongoClient(host=['ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-3xt2ax-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'loanbuffet'), 'loanbuffet')
+[INFO][db-connection][2023-03-27 23:47:18,113]: Data fetched from userform
+[INFO][db-connection][2023-03-27 23:47:18,114]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-27 23:47:18,114]: {'request_raised_for': 'Credit Card', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Male', 'dob': '2023-03-02', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '43244', 'liability': '234', 'dependent': '1'}
+[INFO][db-connection][2023-03-27 23:47:18,116]: Collection(Database(MongoClient(host=['ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-3xt2ax-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'loanbuffet'), 'loanbuffet')
+[ERROR][db-connection][2023-03-27 23:47:48,451]: Some error while inserting the record,No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6421dda6db335b3a04a6c0cd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-twckzzp-shard-00-00.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-twckzzp-shard-00-01.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-twckzzp-shard-00-02.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+[INFO][db-connection][2023-03-29 12:18:14,821]: Data fetched from userform
+[INFO][db-connection][2023-03-29 12:18:14,881]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 12:18:14,883]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 12:18:14,885]: Collection(Database(MongoClient(host=['ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017', 'ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-3xt2ax-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'loanbuffet'), 'loanbuffet')
+[ERROR][db-connection][2023-03-29 12:18:45,392]: Some error while inserting the record,ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017: connection closed,ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017: connection closed,ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 6423deeb839c29409443ce14, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-twckzzp-shard-00-00.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-twckzzp-shard-00-00.coxsczc.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-twckzzp-shard-00-01.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-twckzzp-shard-00-01.coxsczc.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-twckzzp-shard-00-02.coxsczc.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-twckzzp-shard-00-02.coxsczc.mongodb.net:27017: connection closed')>]>
+[INFO][db-connection][2023-03-29 15:02:05,597]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:02:05,598]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:02:05,598]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:02:05,600]: r
+[ERROR][db-connection][2023-03-29 15:02:05,600]: Some error while inserting the record,'str' object has no attribute 'insert_one'
+[INFO][db-connection][2023-03-29 15:05:23,655]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:05:23,656]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:05:23,658]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:05:23,659]: r
+[ERROR][db-connection][2023-03-29 15:05:23,660]: Some error while inserting the record,'str' object has no attribute 'insert_one'
+[INFO][db-connection][2023-03-29 15:11:34,795]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:11:34,796]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:11:34,797]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:11:34,799]: r
+[ERROR][db-connection][2023-03-29 15:11:34,800]: Some error while inserting the record,'str' object has no attribute 'insert_one'
+[INFO][db-connection][2023-03-29 15:12:25,699]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:12:25,700]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:12:25,702]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:12:25,703]: r
+[ERROR][db-connection][2023-03-29 15:12:25,704]: Some error while inserting the record,'str' object has no attribute 'insert_one'
+[INFO][db-connection][2023-03-29 15:14:33,911]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:14:33,912]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:14:33,912]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:14:33,914]: r
+[ERROR][db-connection][2023-03-29 15:14:33,915]: Some error while inserting the record,'str' object has no attribute 'insert_one'
+[INFO][db-connection][2023-03-29 15:25:24,468]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:25:24,469]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:25:24,469]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:25:24,472]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True), 'test'), 'loanbuffet')
+[ERROR][db-connection][2023-03-29 15:25:54,740]: Some error while inserting the record,ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997),ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017: timed out,ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997), Timeout: 30s, Topology Description: <TopologyDescription id: 64240b04da7078bbc80549e0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')>, <ServerDescription ('ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')>, <ServerDescription ('ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017: timed out')>]>
+[INFO][db-connection][2023-03-29 15:29:40,648]: Data fetched from userform
+[INFO][db-connection][2023-03-29 15:29:40,649]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 15:29:40,650]: {'request_raised_for': 'Personal Loan', 'fname': 'Kriti', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2023-03-17', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'vikasbca08@gmail.com', 'mobile': '4535345', 'salary': '4432434', 'liability': '3243', 'dependent': '3'}
+[INFO][db-connection][2023-03-29 15:29:40,652]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 15:29:42,119]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 16:08:53,515]: Data fetched from userform
+[INFO][db-connection][2023-03-29 16:08:53,516]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 16:08:53,517]: {'request_raised_for': 'Credit Card', 'fname': 'Vikas', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1990-08-26', 'address': '4/304, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Complicated', 'email': 'vikasbca08@gmail.com', 'mobile': '9876543210', 'salary': '15000', 'liability': '10000', 'dependent': '5'}
+[INFO][db-connection][2023-03-29 16:08:53,519]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 16:08:54,932]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 16:16:18,235]: Data fetched from userform
+[INFO][db-connection][2023-03-29 16:16:18,236]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 16:16:18,237]: {'request_raised_for': 'Credit Card', 'fname': 'Ayush', 'mname': '', 'lname': 'Jain', 'gender': 'Male', 'dob': '1992-04-24', 'address': 'Gurgaon', 'pincode': '110038', 'state': 'Haryana', 'marital_status': 'Married', 'email': 'ayushjain@gmail.com', 'mobile': '9087654321', 'salary': '15500', 'liability': '10000', 'dependent': '2'}
+[INFO][db-connection][2023-03-29 16:16:18,240]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 16:16:19,679]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 18:49:29,845]: Data fetched from userform
+[INFO][db-connection][2023-03-29 18:49:29,846]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 18:49:29,847]: {'request_raised_for': 'Loan Against Property', 'fname': 'Keshav', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1973-02-14', 'address': '2/189, Trilok Puri, New Delhi', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'kkmishra@gmail.com', 'mobile': '9311531445', 'salary': '50000', 'liability': '25000', 'dependent': '6'}
+[INFO][db-connection][2023-03-29 18:49:29,848]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 18:49:31,215]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 18:52:25,331]: Data fetched from userform
+[INFO][db-connection][2023-03-29 18:52:25,332]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 18:52:25,333]: {'request_raised_for': 'Home Loan', 'fname': 'Sachin', 'mname': '', 'lname': 'Gupta', 'gender': 'Male', 'dob': '1995-04-22', 'address': 'Noida', 'pincode': '201010', 'state': 'Uttar Pradesh', 'marital_status': 'Married', 'email': 'Sachin@gmail.com', 'mobile': '9311531445', 'salary': '80000', 'liability': '60000', 'dependent': '5'}
+[INFO][db-connection][2023-03-29 18:52:25,334]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 18:52:25,563]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 18:54:25,297]: Data fetched from userform
+[INFO][db-connection][2023-03-29 18:54:25,298]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 18:54:25,299]: {'request_raised_for': 'Business Loan', 'fname': 'Sushil', 'mname': '', 'lname': 'Kumar', 'gender': 'Male', 'dob': '1987-04-22', 'address': 'Patel Nagar', 'pincode': '110008', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'Sachin@gmail.com', 'mobile': '446732476', 'salary': '70000', 'liability': '80000', 'dependent': '4'}
+[INFO][db-connection][2023-03-29 18:54:25,300]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 18:54:25,525]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:10:03,315]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:10:03,316]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:10:03,317]: {'request_raised_for': 'Personal Loan', 'fname': 'Toshita', 'mname': '', 'lname': 'Tripathi', 'gender': 'Female', 'dob': '1990-12-12', 'address': 'Roorki', 'pincode': '247664', 'state': 'Uttrakhand', 'marital_status': 'Married', 'email': 'Sachin@gmail.com', 'mobile': '4563754324', 'salary': '170000', 'liability': '80000', 'dependent': '4'}
+[INFO][db-connection][2023-03-29 19:10:03,319]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:10:04,729]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:25:57,751]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:25:57,752]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:25:57,753]: {'request_raised_for': 'Personal Loan', 'fname': 'shaivi', 'mname': '', 'lname': 'kholi', 'gender': 'Female', 'dob': '2009-10-11', 'address': 'kalyan puri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'shaivi@gmail.com', 'mobile': '8723761076', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:25:57,754]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:25:59,164]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:29:10,891]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:29:10,892]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:29:10,896]: {'request_raised_for': 'Personal Loan', 'fname': 'Riya', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2010-06-16', 'address': 'Trilokpuri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'Riya@gmail.com', 'mobile': '8895778024', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:29:10,898]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:29:11,136]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:30:47,734]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:30:47,735]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:30:47,735]: {'request_raised_for': 'Personal Loan', 'fname': 'Aditi', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2017-01-20', 'address': 'Trilokpuri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'Aditi@gmail.com', 'mobile': '9910193220', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:30:47,737]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:30:47,968]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:32:57,793]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:32:57,794]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:32:57,795]: {'request_raised_for': 'Credit Card', 'fname': 'Nisha', 'mname': '', 'lname': 'Kumari', 'gender': 'Female', 'dob': '1999-09-23', 'address': 'Trilokpuri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'Aditi@gmail.com', 'mobile': '9910193220', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:32:57,796]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:32:58,033]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:34:56,308]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:34:56,309]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:34:56,309]: {'request_raised_for': 'Business Loan', 'fname': 'Vikas', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1990-08-26', 'address': 'Trilokpuri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'Vikas@gmail.com', 'mobile': '9910193220', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:34:56,311]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:34:56,542]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:37:20,426]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:37:20,427]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:37:20,427]: {'request_raised_for': 'Loan Against Property', 'fname': 'Sudhira', 'mname': '', 'lname': 'devi', 'gender': 'Male', 'dob': '1957-01-01', 'address': 'Nanital', 'pincode': '110091', 'state': 'Uttrakhand', 'marital_status': 'Married', 'email': 'Vikas@gmail.com', 'mobile': '9910193220', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:37:20,428]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:37:20,665]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:41:59,041]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:41:59,041]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:41:59,042]: {'request_raised_for': 'Balance Transfer', 'fname': 'Roop', 'mname': 'Narayan', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1947-07-05', 'address': 'Madhubani', 'pincode': '847109', 'state': 'Bihar', 'marital_status': 'Married', 'email': 'Roop@gmail.com', 'mobile': '8888829025', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:41:59,043]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:42:00,499]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:46:21,055]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:46:21,056]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:46:21,056]: {'request_raised_for': 'Personal Loan', 'fname': 'Mukesh', 'mname': 'kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1989-12-27', 'address': 'Ahmedabad', 'pincode': '380001', 'state': 'Gujarat', 'marital_status': 'Married', 'email': 'Mukesh@gmail.com', 'mobile': '7838112252', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:46:21,057]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:46:21,292]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:50:07,983]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:50:07,984]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:50:07,984]: {'request_raised_for': 'Business Loan', 'fname': 'Uma', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '1986-11-17', 'address': 'Achanakpur', 'pincode': '493445', 'state': 'Chhatisgarh', 'marital_status': 'Married', 'email': 'Uma@gmail.com', 'mobile': '9013955405', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:50:07,986]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:50:08,220]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:53:06,110]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:53:06,111]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:53:06,112]: {'request_raised_for': 'Business Loan', 'fname': 'Malika', 'mname': '', 'lname': 'Gusain', 'gender': 'Female', 'dob': '2010-07-13', 'address': 'Bagasu', 'pincode': '249171', 'state': 'Uttrakhand', 'marital_status': 'Unmarried', 'email': 'Malika@gmail.com', 'mobile': '6734578901', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:53:06,113]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:53:07,483]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 19:57:00,878]: Data fetched from userform
+[INFO][db-connection][2023-03-29 19:57:00,879]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 19:57:00,880]: {'request_raised_for': 'Personal Loan', 'fname': 'Akshita', 'mname': '', 'lname': 'Pokhriyal', 'gender': 'Female', 'dob': '2010-08-05', 'address': 'Agra', 'pincode': '282001', 'state': 'Uttar Pradesh', 'marital_status': 'Unmarried', 'email': 'Akshita@gmail.com', 'mobile': '8219056319', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 19:57:00,881]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 19:57:01,113]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:02:09,423]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:02:09,424]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:02:09,424]: {'request_raised_for': 'Loan Against Property', 'fname': 'Priyanshi', 'mname': '', 'lname': 'Aggarwal', 'gender': 'Female', 'dob': '2011-09-19', 'address': 'Ambli', 'pincode': '380058', 'state': 'Gujarat', 'marital_status': 'Unmarried', 'email': 'Priyanshi@gmail.com', 'mobile': '8219056319', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:02:09,425]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:02:10,800]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:07:06,141]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:07:06,143]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:07:06,143]: {'request_raised_for': 'Home Loan', 'fname': 'Aditya', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1997-04-23', 'address': 'Seven wells', 'pincode': '600001', 'state': 'Tamil Nadu', 'marital_status': 'Married', 'email': 'Aditya@gmail.com', 'mobile': '7892046572', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:07:06,144]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:07:06,375]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:11:29,277]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:11:29,278]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:11:29,279]: {'request_raised_for': 'Business Loan', 'fname': 'Udit', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1969-04-23', 'address': 'Dhanbad', 'pincode': '826001', 'state': 'Jharkhand', 'marital_status': 'Married', 'email': 'Udit@gmail.com', 'mobile': '7892046572', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:11:29,280]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:11:29,509]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:14:28,583]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:14:28,584]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:14:28,585]: {'request_raised_for': 'Credit Card', 'fname': 'shruti', 'mname': '', 'lname': 'kumari', 'gender': 'Female', 'dob': '2011-08-21', 'address': 'algapur', 'pincode': '788101', 'state': 'Assam', 'marital_status': 'Unmarried', 'email': 'shruti@gmail.com', 'mobile': '9233342813', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:14:28,590]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:14:28,827]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:17:56,610]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:17:56,611]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:17:56,612]: {'request_raised_for': 'Loan Against Property', 'fname': 'Yutika', 'mname': '', 'lname': 'Mishra', 'gender': 'Female', 'dob': '2009-04-25', 'address': 'Kalhani', 'pincode': '175124', 'state': 'Himachal Pradesh', 'marital_status': 'Unmarried', 'email': 'Yutika@gmail.com', 'mobile': '7722900186', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:17:56,613]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:17:57,980]: Record inserted in mongo db
+[INFO][db-connection][2023-03-29 20:23:09,166]: Data fetched from userform
+[INFO][db-connection][2023-03-29 20:23:09,167]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-29 20:23:09,168]: {'request_raised_for': 'Home Loan', 'fname': 'Arya', 'mname': '', 'lname': 'Rawat', 'gender': 'Female', 'dob': '1989-05-28', 'address': 'Changlang', 'pincode': '792055', 'state': 'Arunachal Pradesh', 'marital_status': 'Married', 'email': 'Arya@gmail.com', 'mobile': '9999087532', 'salary': '10000', 'liability': '0', 'dependent': '0'}
+[INFO][db-connection][2023-03-29 20:23:09,169]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-03-29 20:23:09,401]: Record inserted in mongo db
+[INFO][db-connection][2023-03-30 15:06:30,351]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 15:06:30,351]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 15:06:31,814]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 15:10:10,380]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 15:10:10,383]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 15:10:11,766]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 15:18:54,961]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 15:18:54,962]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 15:18:56,398]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 18:19:40,557]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 18:19:40,557]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 18:19:41,944]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 18:31:50,146]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 18:31:50,147]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 18:31:51,563]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 19:22:27,708]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 19:22:28,443]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 19:22:29,847]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 19:28:02,008]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 19:28:02,009]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 19:28:03,404]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 19:30:04,491]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 19:30:04,493]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 19:30:05,898]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-03-30 19:32:22,710]: Data fetched from signup form
+[INFO][db-connection][2023-03-30 19:32:22,711]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-03-30 19:32:22,939]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-01 23:30:56,160]: Data fetched from signup form
+[INFO][db-connection][2023-04-01 23:30:56,160]: Dictionary created to insert record in mongodb
+[ERROR][db-connection][2023-04-01 23:31:26,223]: Some error while inserting the record for signup form,ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017: timed out,ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017: timed out,ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017: timed out, Timeout: 30s, Topology Description: <TopologyDescription id: 6428713f36e3f692d3440acd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017: timed out')>, <ServerDescription ('ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017: timed out')>, <ServerDescription ('ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017: timed out')>]>
+[INFO][db-connection][2023-04-03 15:12:18,659]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:12:18,684]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:12:20,167]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:15:58,781]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:15:58,782]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:15:59,005]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:19:11,824]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:19:58,880]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:19:58,881]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:19:59,104]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:24:53,618]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:24:53,619]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:24:54,982]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:28:22,547]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:28:22,547]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:28:22,778]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:29:33,657]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:29:33,657]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:29:34,961]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:31:23,906]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:31:23,906]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:31:24,124]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:32:49,687]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:32:49,688]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:32:49,910]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:35:08,168]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:35:08,169]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:35:08,388]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:36:32,348]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:36:32,349]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:36:32,567]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:37:26,755]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:37:26,756]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:37:26,972]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:38:44,765]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:38:44,766]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:38:44,992]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:40:37,612]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:40:37,612]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:40:40,198]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:42:22,244]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:42:22,245]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:42:22,477]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:44:12,931]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:44:37,644]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:44:37,645]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:44:39,066]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:51:37,713]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:51:37,713]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:51:39,113]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 15:58:54,713]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 15:58:54,714]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 15:58:56,054]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 16:00:56,415]: Data fetched from userform
+[INFO][db-connection][2023-04-03 16:00:56,416]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:00:56,416]: {'request_raised_for': 'Personal Loan', 'fname': 'Sushobhan', 'mname': '', 'lname': 'Dutta', 'gender': 'Male', 'dob': '1994-06-23', 'address': ' Dibrugarh', 'pincode': '222212', 'state': 'West Bengal', 'marital_status': 'Married', 'email': 'Sushobhan@gmail.com', 'mobile': '9876543120', 'salary': '120000', 'liability': '50000', 'dependent': '2'}
+[INFO][db-connection][2023-04-03 16:00:56,417]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 16:00:56,654]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 16:04:52,454]: Data fetched from userform
+[INFO][db-connection][2023-04-03 16:04:52,455]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:04:52,456]: {'request_raised_for': 'Personal Loan', 'fname': 'Sushobhan', 'mname': '', 'lname': 'Dutta', 'gender': 'Male', 'dob': '1994-06-23', 'address': ' Dibrugarh', 'pincode': '222212', 'state': 'West Bengal', 'marital_status': 'Married', 'email': 'Sushobhan@gmail.com', 'mobile': '9876543120', 'salary': '120000', 'liability': '50000', 'dependent': '2'}
+[INFO][db-connection][2023-04-03 16:04:52,459]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 16:04:53,866]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 16:32:52,605]: Data fetched from userform
+[INFO][db-connection][2023-04-03 16:32:52,606]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:32:52,606]: {'request_raised_for': 'Personal Loan', 'fname': 'Sushobhan', 'mname': '', 'lname': 'Dutta', 'gender': 'Male', 'dob': '1994-06-23', 'address': ' Dibrugarh', 'pincode': '222212', 'state': 'West Bengal', 'marital_status': 'Married', 'email': 'Sushobhan@gmail.com', 'mobile': '9876543120', 'salary': '120000', 'liability': '50000', 'dependent': '2'}
+[INFO][db-connection][2023-04-03 16:32:52,608]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 16:32:54,041]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 16:50:16,540]: Data fetched from signup form
+[INFO][db-connection][2023-04-03 16:50:16,541]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:50:17,901]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-03 16:53:01,853]: Data fetched from userform
+[INFO][db-connection][2023-04-03 16:53:01,855]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:53:01,856]: {'request_raised_for': 'Credit Card', 'fname': 'Anand', 'mname': '', 'lname': 'Jha', 'gender': 'Male', 'dob': '1957-04-27', 'address': ' Ankur Vihar', 'pincode': '201010', 'state': 'Uttar Pradesh', 'marital_status': 'Married', 'email': 'anandjha@gmail.com', 'mobile': '7654000011', 'salary': '133324', 'liability': '34324', 'dependent': '4'}
+[INFO][db-connection][2023-04-03 16:53:01,857]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 16:53:02,085]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 16:57:05,026]: Data fetched from userform
+[INFO][db-connection][2023-04-03 16:57:05,029]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 16:57:05,030]: {'request_raised_for': 'Credit Card', 'fname': 'Anand', 'mname': '', 'lname': 'Jha', 'gender': 'Male', 'dob': '1957-04-27', 'address': ' Ankur Vihar', 'pincode': '201010', 'state': 'Uttar Pradesh', 'marital_status': 'Married', 'email': 'anandjha@gmail.com', 'mobile': '7654000011', 'salary': '133324', 'liability': '34324', 'dependent': '4'}
+[INFO][db-connection][2023-04-03 16:57:05,032]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 16:57:06,422]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 17:00:01,768]: Data fetched from userform
+[INFO][db-connection][2023-04-03 17:00:01,769]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 17:00:01,773]: {'request_raised_for': 'Credit Card', 'fname': 'Anand', 'mname': '', 'lname': 'Jha', 'gender': 'Male', 'dob': '1957-04-27', 'address': ' Ankur Vihar', 'pincode': '201010', 'state': 'Uttar Pradesh', 'marital_status': 'Married', 'email': 'anandjha@gmail.com', 'mobile': '7654000011', 'salary': '133324', 'liability': '34324', 'dependent': '4'}
+[INFO][db-connection][2023-04-03 17:00:01,776]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 17:00:03,142]: Record inserted in mongo db
+[INFO][db-connection][2023-04-03 17:23:15,302]: Data fetched from userform
+[INFO][db-connection][2023-04-03 17:23:15,303]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-03 17:23:15,303]: {'request_raised_for': 'Business Loan', 'fname': 'Keshav', 'mname': 'Kumar', 'lname': 'Mishra', 'gender': 'Male', 'dob': '1973-02-14', 'address': ' Trilok Puri', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'kkmishra@gmail.com', 'mobile': '09311531445', 'salary': '120000', 'liability': '80000', 'dependent': '6'}
+[INFO][db-connection][2023-04-03 17:23:15,304]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-03 17:23:16,696]: Record inserted in mongo db
+[INFO][db-connection][2023-04-04 01:54:08,114]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:54:08,115]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 01:54:38,211]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:54:38,212]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 01:55:48,509]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:55:48,510]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 01:55:49,818]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:55:49,818]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 01:55:50,144]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:55:50,145]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 01:55:50,528]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 01:55:50,529]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 02:00:00,671]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 02:00:00,672]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 02:02:19,829]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 02:02:19,841]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 02:05:01,009]: momgo db query ran successfully
+[ERROR][db-connection][2023-04-04 02:05:01,010]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 03:21:05,250]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:21:49,972]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:24:38,340]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:26:29,264]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:28:46,270]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:31:58,089]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:35:33,006]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:37:27,171]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:38:30,365]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:38:53,850]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:40:21,042]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:41:59,982]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:47:48,237]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:47:49,518]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:50:03,972]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:50:05,327]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:53:32,592]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:53:33,958]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:54:37,890]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:54:39,338]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:56:14,929]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:56:15,996]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:56:16,362]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:56:17,311]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:57:27,754]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:57:29,167]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:57:29,167]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 03:57:57,084]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 03:57:58,451]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 03:57:58,452]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 04:00:53,449]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:00:54,792]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:00:54,793]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 04:05:40,854]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:05:42,160]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:05:42,160]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:06:55,216]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:06:56,652]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:06:56,652]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:07:53,196]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:07:54,610]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:07:54,611]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:25:18,692]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:25:18,693]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-04 04:25:20,048]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-04 04:31:32,643]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:31:33,993]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:31:33,993]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 04:31:52,950]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:31:53,164]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:31:53,165]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:32:47,894]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:32:49,298]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:32:49,299]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:35:09,940]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:35:10,171]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:35:10,171]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:35:43,216]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:35:43,444]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:35:43,445]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:36:18,713]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:36:20,060]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:36:20,060]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:38:09,573]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:38:10,971]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:38:10,971]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:39:46,631]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:39:46,858]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:39:46,859]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 04:40:16,351]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 04:40:17,756]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 04:40:17,757]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 15:17:53,609]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:17:54,999]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:17:55,000]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 15:18:07,273]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:18:07,490]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:18:07,491]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:30:26,304]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:30:27,601]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:30:27,602]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:31:17,784]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:31:18,011]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:31:18,011]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:34:04,515]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:34:05,872]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:34:05,872]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:34:25,566]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:34:25,780]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:34:25,780]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:34:34,281]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:34:34,494]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:34:34,495]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 15:36:50,644]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:36:52,002]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:36:52,003]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:37:04,401]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:37:04,620]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:37:04,620]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 15:37:43,790]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:37:44,038]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:37:44,038]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:39:23,968]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:39:25,349]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:39:25,350]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:42:24,612]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:42:26,091]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:42:26,099]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:45:30,929]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:45:32,269]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:45:32,270]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 15:48:45,540]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 15:48:46,860]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 15:48:46,861]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:34:06,063]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:34:07,467]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:34:07,468]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:35:13,068]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:35:14,479]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:35:14,480]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 16:35:21,659]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:35:21,890]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:35:21,891]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:35:34,042]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:35:34,273]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:35:34,274]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-04 16:35:55,544]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:35:55,774]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:35:55,775]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:37:03,714]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:37:05,092]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:37:05,093]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:37:50,009]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:37:51,384]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:37:51,385]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:43:00,694]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:43:02,139]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:43:02,140]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:45:11,991]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:45:13,318]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:45:13,318]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:46:08,424]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:46:09,749]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:46:09,750]: Pwd matched with databse
+[ERROR][db-connection][2023-04-04 16:46:09,985]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-04 16:46:51,580]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:46:52,914]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:46:52,914]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:48:31,382]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:48:32,717]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:48:32,719]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:54:57,747]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:54:59,119]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:54:59,120]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 16:56:02,431]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 16:56:03,817]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 16:56:03,817]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 17:15:58,216]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 17:15:59,603]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 17:15:59,604]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 17:19:30,632]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 17:19:31,980]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 17:19:31,981]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 17:19:32,260]: momgo db query ran successfully
+[INFO][db-connection][2023-04-04 17:19:32,261]: momgo db query ran successfully
+[INFO][db-connection][2023-04-04 17:32:03,367]: Data fetched from signup form
+[INFO][db-connection][2023-04-04 17:32:04,685]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-04 17:32:04,685]: Pwd matched with databse
+[INFO][db-connection][2023-04-04 17:32:05,092]: momgo db query ran successfully
+[INFO][db-connection][2023-04-04 17:32:05,092]: momgo db query ran successfully

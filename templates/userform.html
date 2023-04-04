@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+</head>
+<link rel="shortcut icon" href="#">
+<body style="background-color: yellowgreen;">
+    <header style="background-color: #26aa71;">
+        <h1 style="color: white;text-align: center;">LoanBuffet</h1>
+        <h1 style="color: white;">User Form </h1>
+        <h4 style="color: white;">Please fill the below form, we will get back to you shortly</h4>
+    </header>
+    <hr>
+
+    <form name="passdata" action="{{url_for('requestformpage')}}" method="post">
+        <p>Request for:*
+            <select name="request_for" id="Request for">
+                <option value="">--Select a product--</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="Personal Loan">Personal Loan</option>
+                <option value="Business Loan">Business Loan</option>
+                <option value="Balance Transfer">Balance Transfer</option>
+                <option value="Loan Against Property">Loan Against Property</option>
+                <option value="Home Loan">Home Loan</option>
+            </select>
+        </p>
+
+        <p>Required fields are followed by *</p>
+        <h2>Contact Information</h2>
+        <p>First Name:* <input type="text" name="fname" required> Middle Name: <input type="text" name="mname"> Last Name:* <input type="text" name="lname" required></p>
+        <fieldset>
+            <legend>Gender*</legend required>
+            <input type="radio" name="gender" value="Male" id="male">
+            <label for="html">Male</label>
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="html">Female</label>
+            <input type="radio" name="gender" value="Transgenger" id="transgender">
+            <label for="html">Transgender</label>
+        </fieldset>
+
+        <p>DOB: *<input type="date" name="dob" id="dob" required></p>
+
+        <p>Address: *<textarea name="address" id="address" cols="100" rows="3" required> </textarea></p>
+        <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+        <p>State: *
+            <select name="state" id="state" required>
+                <option value="">--Select State--</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhatisgarh">Chhatisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odhisa">Odhisa</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttrakhand">Uttrakhand</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="">--Select Union Terriotry--</option>
+                <option value="Andman and Nicobar Islands">Andman and Nicobar Islands"</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Dadra and Nagar Haveli and Daman & Diu">Dadra and Nagar Haveli and Daman & Diu</option>
+                <option value="The Govt. of NCT of Delhi">The Govt. of NCT of Delhi</option>
+                <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                <option value="Ladakh">Ladakh</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+            </select>
+        </p>
+
+        <p>Marital Status:*
+            <select name="marital_status" id="marital_status">
+                <option value="">--Select Marital Status--</option>
+                <option value="Married">Married</option>
+                <option value="Unmarried">Unmarried</option>
+                <option value="Complicated">Complicated</option>
+                <option value="Divorcee">Divorcee</option>
+            </select>
+        </p>
+        <p>Email:* <input type="email" name="email" id="email" required></p>
+        <p>Mobile:* <input type="number" name="mobile" id="mobile" required></p>
+        <p>Monthly Salary:* <input type="number" name="salary" id="salary" required></p>
+        <p>Monthly Liability:* <input type="number" name="liability" id="liability" required></p>
+        <p>No. of dependent:* <input type="number" name="dependent" id="dependent" required></p>
+
+        <br>
+        <br>
+
+        <!-- <button type="submit" class="signup">Submit</button> -->
+        <button onclick="requestCreation()" type="submit" value="submit" class="request" style="background-color: limegreen;">Submit</button>
+            <script>
+                function requestCreation() {
+                    alert("Hello! Request has been created. We will get back to you shortly.");
+                    }
+            </script>
+
+        <button type="reset" class="cancel" style="background-color: salmon;">Refresh</button>
+        
+        <hr>
+
+        <footer style="background-color: gray;">
+            <p style="color: whitesmoke;">Follow Us</p>
+            <a target="_blank" href="https://twitter.com/bankbazaar" title="LoanBuffet Twitter" style="color: whitesmoke;"><img src="../static/images/twitter.jpg" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="https://www.linkedin.com/company/bank_bazaar" title="LoanBuffet Linkedin" style="color: whitesmoke;"><img src="../static/images/linkedin.png" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="https://www.facebook.com/bankbazaar/" title="LoanBuffet Facebook" style="color: whitesmoke;"><img src="../static/images/facebook.png" alt="" width="20"></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="https://instagram.com/bankbazaar/" title="LoanBuffet Instagram" style="color: whitesmoke;"><img src="../static/images/instagram.jpg" alt="" width="20"></a>
+    
+            <br>
+            <br>
+            <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+            <br>
+            <p>Copyright &copy; 2023 LoanBuffet.com</p>
+        </footer>
+
+</body>
+</html>
