@@ -10,7 +10,7 @@
     <header>
         <h1>Different type's of Loan available in India</h1>
         <nav>
-            <a href="{{url_for('home')}}">Home</a>
+            <a href="{{url_for('gethome')}}">Home</a>
         </nav>
     </header>
 
@@ -65,9 +65,9 @@
 
         <br>
         <br>
-        <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+        <a href="{{url_for('getabout')}}" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcareer')}}" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcontactus')}}" target="_blank" style="color: whitesmoke;">Contact Us</a>
         <br>
         <p>Copyright &copy; 2023 LoanBuffet.com</p>
     </footer>

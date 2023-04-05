@@ -476,3 +476,26 @@
 [INFO][db-connection][2023-04-04 17:32:04,685]: Pwd matched with databse
 [INFO][db-connection][2023-04-04 17:32:05,092]: momgo db query ran successfully
 [INFO][db-connection][2023-04-04 17:32:05,092]: momgo db query ran successfully
+[INFO][db-connection][2023-04-05 21:27:01,103]: Data fetched from signup form
+[INFO][db-connection][2023-04-05 21:27:02,529]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-05 21:27:02,530]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-05 21:27:15,651]: Data fetched from signup form
+[INFO][db-connection][2023-04-05 21:27:15,876]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-05 21:27:15,876]: Pwd matched with databse
+[INFO][db-connection][2023-04-05 21:27:17,141]: momgo db query ran successfully
+[INFO][db-connection][2023-04-05 21:27:17,142]: momgo db query ran successfully
+[INFO][db-connection][2023-04-05 22:30:30,616]: Data fetched from userform
+[INFO][db-connection][2023-04-05 22:30:30,617]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-05 22:30:30,617]: {'request_raised_for': 'Credit Card', 'fname': 'Deepti', 'mname': '', 'lname': 'Saxena', 'gender': 'Female', 'dob': '2023-03-27', 'address': 'Mayur Vihar, Phase 1', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Unmarried', 'email': 'deepti@gmail.com', 'mobile': '9988776655', 'salary': '150000', 'liability': '80000', 'dependent': '3'}
+[INFO][db-connection][2023-04-05 22:30:30,619]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-05 22:30:32,091]: Record inserted in mongo db
+[INFO][db-connection][2023-04-05 22:32:07,614]: Data fetched from signup form
+[INFO][db-connection][2023-04-05 22:32:07,615]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-05 22:32:07,864]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-05 22:32:42,695]: Data fetched from signup form
+[INFO][db-connection][2023-04-05 22:32:42,926]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-05 22:32:42,927]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-05 22:33:02,720]: Data fetched from signup form
+[INFO][db-connection][2023-04-05 22:33:02,951]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-05 22:33:02,952]: Pwd matched with databse
+[INFO][db-connection][2023-04-05 22:33:03,255]: momgo db query ran successfully

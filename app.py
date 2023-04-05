@@ -31,16 +31,24 @@ Session(app)
 
 app.secret_key = "super secret key"
 
-@app.route('/home')
-def home():
+@app.route('/home', methods = ['GET'])
+def gethome():
     return render_template('home1.html')
+
+@app.route('/aboutus')
+def getabout():
+    return render_template('aboutus.html')
+
+@app.route('/career')
+def getcareer():
+    return render_template('careers.html')
 
 @app.route('/typeofloan')
 def typeofloan():
     return render_template('typeofloan.html')
 
 @app.route('/contactus')
-def contactus():
+def getcontactus():
     return render_template('contactus.html')
 
 @app.route('/requestform')

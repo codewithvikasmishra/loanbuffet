@@ -10,7 +10,7 @@
     <header style="background-color: blueviolet;">
         <h1>You have requested with below given details</h1>
         <nav style="text-align: right;">
-            <a href="{{url_for('home')}}" style="color: white;">Home</a>
+            <a href="{{url_for('gethome')}}" style="color: white;">Home</a>
         </nav>
     </header>
 
@@ -39,9 +39,9 @@
 
         <br>
         <br>
-        <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+        <a href="{{url_for('getabout')}}" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcareer')}}" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcontactus')}}" target="_blank" style="color: whitesmoke;">Contact Us</a>
         <br>
         <p>Copyright &copy; 2023 LoanBuffet.com</p>
     </footer>

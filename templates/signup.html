@@ -72,7 +72,7 @@ font-size: 28px;
 </label>
 <p>By creating an account you agree to our <a href="#"
 style="color:dodgerblue">Terms & Privacy</a>.</p>
-<a href="login.html">Already have an account</a>
+<a href="{{url_for('loginpage')}}">Already have an account</a>
 <div>
 <button type="button" class="cancel">Cancel</button>
 <button onclick="profileCreation()" type="submit" class="signup">Sign Up</button>
@@ -96,9 +96,9 @@ style="color:dodgerblue">Terms & Privacy</a>.</p>
 
     <br>
     <br>
-    <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+    <a href="{{url_for('getabout')}}" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="{{url_for('getcareer')}}" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="{{url_for('getcontactus')}}" target="_blank" style="color: whitesmoke;">Contact Us</a>
     <br>
     <p>Copyright &copy; 2023 LoanBuffet.com</p>
 </footer>

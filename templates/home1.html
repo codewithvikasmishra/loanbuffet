@@ -10,21 +10,21 @@
     <Header style="background-color: purple;">
         <h1  style="text-align: center; color: white;">Loan Buffet</h1>
         <nav style="text-align: right;">
-            <a href="{{url_for('login')}}" target="_blank" style="color: whitesmoke;">Login/Sign Up</a>
+            <a href="{{url_for('loginpage')}}" target="_blank" style="color: whitesmoke;">Login/Sign Up</a>
         </nav>
 
         <nav>
-            <a href="{{url_for('home')}}" style="color: whitesmoke;">Home </a>&nbsp;&nbsp;
+            <a href="{{url_for('gethome')}}" style="color: whitesmoke;">Home </a>&nbsp;&nbsp;
             <a href="{{url_for('typeofloan')}}" style="color: whitesmoke;">Type of Loan </a>&nbsp;&nbsp;
             <a href="{{url_for('requestform')}}" style="color: whitesmoke;">Raise a query </a>&nbsp;&nbsp;
-            <a href="{{url_for('contactus')}}" style="color: whitesmoke;">Contact Us </a>
+            <a href="{{url_for('getcontactus')}}" style="color: whitesmoke;">Contact Us </a>
     
         </nav>
     </Header>
     
     <hr style="color: crimson;">
     
-    <form name="homedata" action="." method="post"></form>
+    <form name="homedata" action="{{url_for('gethome')}}" method="get"></form>
     <main>
         <section>
             <h2>Credit Products</h2>
@@ -55,9 +55,9 @@
 
         <br>
         <br>
-        <a href="aboutus.html" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="careers.html" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="contactus.html" target="_blank" style="color: whitesmoke;">Contact Us</a>
+        <a href="{{url_for('getabout')}}" target="_blank" style="color: whitesmoke;">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcareer')}}" target="_blank" style="color: whitesmoke;">Careers</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="{{url_for('getcontactus')}}" target="_blank" style="color: whitesmoke;">Contact Us</a>
         <br>
         <p>Copyright &copy; 2023 LoanBuffet.com</p>
     </footer>
