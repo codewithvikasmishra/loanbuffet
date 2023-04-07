@@ -8,6 +8,8 @@ import subprocess
 import json
 from flask.ctx import after_this_request
 import pandas as pd
+import random as rd
+from datetime import date
 from connection.db_connect_mongo import *
 from config.logger import *
 from connection.dbconfig import *
@@ -75,7 +77,21 @@ def requestformpage():
 
     logger.info("Data fetched from userform")
 
+    if request_for == "Credit Card":
+        req_num = "CC"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+    elif request_for == "Personal Loan":
+        req_num = "PL"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+    elif request_for == "Business Loan":
+        req_num = "BL"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+    elif request_for == "Balance Transfer":
+        req_num = "BT"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+    elif request_for == "Loan Against Property":
+        req_num = "LAP"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+    elif request_for == "Home Loan":
+        req_num = "HL"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
+
     record = {'request_raised_for':request_for,
+              'request_number' : req_num,
               'fname':fname,
               'mname':mname,
               'lname':lname,
@@ -101,7 +117,7 @@ def requestformpage():
     except Exception as e:
         logger.error(f"Some error while inserting the record,{e}")
 
-    return render_template('userform_pass.html', request_for=request_for, fname=fname, mname=mname, lname=lname, gender=gender,
+    return render_template('userform_pass.html', request_number=req_num, request_for=request_for, fname=fname, mname=mname, lname=lname, gender=gender,
                            dob=dob, address=address, pincode=pincode, state=state, marital_status=marital_status,
                            email=email, mobile=mobile, salary=salary, liability=liability, dependent=dependent)
 
@@ -187,9 +203,9 @@ def loginpage():
 def userpage():
     try:
         query = mongo_cnxn[2].find({"email":session.get('uname')})
-        logger.info("email id: ", session.get('uname'))
         for data in query:
             if 'email' in data.keys():
+                req_num = data['request_number']
                 request_for = data['request_raised_for']
                 fname = data['fname']
                 mname = data['mname']
@@ -206,7 +222,7 @@ def userpage():
                 liability = data['liability']
                 dependent = data['dependent']
                 logger.info("momgo db query ran successfully")
-        return render_template('userpage.html', request_for=request_for, fname=fname, mname=mname, lname=lname,
+        return render_template('userpage.html', req_num=req_num, request_for=request_for, fname=fname, mname=mname, lname=lname,
                                gender=gender, dob=dob, address=address, pincode=pincode, state=state, marital_status=marital_status,
                                  email=email, mobile=mobile, salary=salary, liability=liability, dependent=dependent)
     except Exception as e:

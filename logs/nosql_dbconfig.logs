@@ -245,3 +245,6 @@
 [INFO][db-connection][2023-04-07 13:01:47,252]: Connection established for mongo database
 [INFO][db-connection][2023-04-07 13:03:42,860]: Connection established for mongo database
 [INFO][db-connection][2023-04-07 13:06:43,004]: Connection established for mongo database
+[INFO][db-connection][2023-04-07 13:32:32,862]: Connection established for mongo database
+[INFO][db-connection][2023-04-07 13:39:03,094]: Connection established for mongo database
+[INFO][db-connection][2023-04-07 13:44:29,001]: Connection established for mongo database

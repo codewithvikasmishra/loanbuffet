@@ -544,3 +544,33 @@
 [INFO][db-connection][2023-04-07 13:07:32,560]: Pwd matched with databse
 [INFO][db-connection][2023-04-07 13:07:32,869]: momgo db query ran successfully
 [INFO][db-connection][2023-04-07 13:07:32,871]: momgo db query ran successfully
+[INFO][db-connection][2023-04-07 13:32:50,677]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:32:52,103]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:32:52,103]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:32:52,104]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:32:52,105]: Pwd matched with databse
+[ERROR][db-connection][2023-04-07 13:32:52,408]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-07 13:36:14,677]: Data fetched from userform
+[INFO][db-connection][2023-04-07 13:36:14,677]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 13:36:14,678]: {'request_raised_for': 'Credit Card', 'request_number': 'CC20234172720', 'fname': 'Pooja', 'mname': '', 'lname': 'Jha', 'gender': 'Female', 'dob': '1995-01-01', 'address': 'Lokhandwala ', 'pincode': '400053', 'state': 'Maharashtra', 'marital_status': 'Married', 'email': 'poojajha@gmail.com', 'mobile': '8287650111', 'salary': '180000', 'liability': '110000', 'dependent': '3'}
+[INFO][db-connection][2023-04-07 13:36:14,679]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-07 13:36:14,929]: Record inserted in mongo db
+[INFO][db-connection][2023-04-07 13:41:30,755]: Data fetched from userform
+[INFO][db-connection][2023-04-07 13:41:30,756]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 13:41:30,756]: {'request_raised_for': 'Loan Against Property', 'request_number': 'LAP20234600040', 'fname': 'Rinku', 'mname': '', 'lname': 'Roy', 'gender': 'Female', 'dob': '1983-06-17', 'address': 'Juhu', 'pincode': '400049', 'state': 'Maharashtra', 'marital_status': 'Married', 'email': 'rinkuroy@gmail.com', 'mobile': '9717011000', 'salary': '158000', 'liability': '110000', 'dependent': '6'}
+[INFO][db-connection][2023-04-07 13:41:30,758]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[INFO][db-connection][2023-04-07 13:41:32,175]: Record inserted in mongo db
+[INFO][db-connection][2023-04-07 13:42:41,362]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:42:41,586]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 13:42:41,817]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-07 13:42:58,717]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:42:58,938]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:42:58,939]: Pwd matched with databse
+[INFO][db-connection][2023-04-07 13:42:59,268]: momgo db query ran successfully
+[INFO][db-connection][2023-04-07 13:44:49,404]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:44:50,852]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:44:50,854]: Pwd matched with databse
+[INFO][db-connection][2023-04-07 13:44:51,132]: momgo db query ran successfully
+[INFO][db-connection][2023-04-07 13:45:08,680]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:45:08,913]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:45:08,914]: Pwd didn't matched with databse
