@@ -101,7 +101,6 @@ def requestformpage():
     except Exception as e:
         logger.error(f"Some error while inserting the record,{e}")
 
-    # return request_for, fname, mname, lname, gender, dob, address, pincode, state, marital_status,email, mobile, salary, liability, dependent
     return render_template('userform_pass.html', request_for=request_for, fname=fname, mname=mname, lname=lname, gender=gender,
                            dob=dob, address=address, pincode=pincode, state=state, marital_status=marital_status,
                            email=email, mobile=mobile, salary=salary, liability=liability, dependent=dependent)
@@ -121,27 +120,33 @@ def signuppage():
 
         logger.info("Data fetched from signup form")
 
-        if pwd!=r_pwd:
-            logger.info("Pwd and confirm pwd is same for ", email)
-            return "Your pwd and confirm pwd is not same"
+        collection = mongo_cnxn[1][db_config['signup_database']]
         
+        try:
+            query = collection.find({'email':email})
+            for record in query:
+                if 'email' in record.keys():
+                    logger.info("Email already registered")
+                    return render_template('signup.html', error="Email already registered")
+        except Exception as e:
+            logger.error(f"Some error while fetching the record,{e}")
+
+        if pwd!=r_pwd:
+            logger.info("Pwd and confirm pwd is different for ")
+            return render_template('signup.html', error="Pwd and confirm pwd should be same")
         else:
             record = {'username':uname,
-              'email':email,
-              'password':pwd,
-              'confirmpwd':r_pwd}
-            
+                      'email':email,
+                      'password':pwd,
+                      'confirmpwd':r_pwd}
+                    
             logger.info("Dictionary created to insert record in mongodb")
-            
-            collection = mongo_cnxn[1][db_config['signup_database']]
 
-            try:
-                collection.insert_one(record)
-                logger.info("Record inserted in mongo db for signup form")
-            except Exception as e:
-                logger.error(f"Some error while inserting the record for signup form,{e}")
+            collection.insert_one(record)
+            logger.info("Record inserted in mongo db for signup form")
         return redirect(url_for('loginpage'))
     return redirect(url_for('signuppage'))
+
 
 @app.route('/index')  
 def index():  
@@ -177,10 +182,6 @@ def loginpage():
         return redirect(url_for('userpage'))
     return render_template('login.html', error=error)
 
-
-# @app.route('/userinfo')
-# def getuser():
-#     return render_template('userpage.html')
 
 @app.route('/userinfo',methods = ['GET'])
 def userpage():

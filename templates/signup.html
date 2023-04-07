@@ -52,6 +52,9 @@ font-size: 28px;
 }
 </style>
 <body>
+  {% if error %}  
+        <p style="color: red;"><strong>Error</strong>: {{error}}</p>  
+  {% endif %}
 <form name="newuserdata" action="{{url_for('signuppage')}}" method="post">
 <div class="formContainer">
 <h1>Sign Up Form</h1>

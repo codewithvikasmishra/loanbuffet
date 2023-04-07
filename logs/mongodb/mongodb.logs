@@ -499,3 +499,48 @@
 [INFO][db-connection][2023-04-05 22:33:02,951]: Data fetched for pwd matching
 [INFO][db-connection][2023-04-05 22:33:02,952]: Pwd matched with databse
 [INFO][db-connection][2023-04-05 22:33:03,255]: momgo db query ran successfully
+[INFO][db-connection][2023-04-07 12:26:00,450]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:26:01,970]: Email already registered
+[ERROR][db-connection][2023-04-07 12:26:01,972]: Some error while fetching the record,redirect() got an unexpected keyword argument 'message'
+[INFO][db-connection][2023-04-07 12:26:01,974]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 12:26:02,214]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-07 12:31:39,799]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:31:41,160]: Email already registered
+[ERROR][db-connection][2023-04-07 12:31:41,162]: Some error while fetching the record,redirect() got an unexpected keyword argument 'message'
+[INFO][db-connection][2023-04-07 12:31:41,164]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 12:31:41,395]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-07 12:40:54,093]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:40:55,536]: Email already registered
+[ERROR][db-connection][2023-04-07 12:40:55,537]: Some error while fetching the record,redirect() got an unexpected keyword argument 'message'
+[INFO][db-connection][2023-04-07 12:43:00,131]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:43:01,620]: Email already registered
+[INFO][db-connection][2023-04-07 12:45:45,950]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:45:47,375]: Email already registered
+[ERROR][db-connection][2023-04-07 12:45:47,377]: Some error while fetching the record,redirect() got an unexpected keyword argument 'message'
+[INFO][db-connection][2023-04-07 12:51:13,937]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:51:15,261]: Email already registered
+[INFO][db-connection][2023-04-07 12:51:40,099]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:51:40,315]: Email already registered
+[INFO][db-connection][2023-04-07 12:52:13,084]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:54:12,402]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 12:55:32,453]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:01:59,439]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:02:00,810]: Email already registered
+[INFO][db-connection][2023-04-07 13:02:16,735]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:03:49,861]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:03:51,252]: Pwd and confirm pwd is different for 
+[INFO][db-connection][2023-04-07 13:04:06,696]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:04:06,917]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 13:04:07,147]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-07 13:05:16,578]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:05:16,796]: Pwd and confirm pwd is different for 
+[INFO][db-connection][2023-04-07 13:05:43,038]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:05:43,258]: Email already registered
+[ERROR][db-connection][2023-04-07 13:06:52,713]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-07 13:07:32,327]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 13:07:32,558]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:07:32,559]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:07:32,559]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 13:07:32,560]: Pwd matched with databse
+[INFO][db-connection][2023-04-07 13:07:32,869]: momgo db query ran successfully
+[INFO][db-connection][2023-04-07 13:07:32,871]: momgo db query ran successfully
