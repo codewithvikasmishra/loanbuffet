@@ -574,3 +574,30 @@
 [INFO][db-connection][2023-04-07 13:45:08,680]: Data fetched from signup form
 [INFO][db-connection][2023-04-07 13:45:08,913]: Data fetched for pwd matching
 [INFO][db-connection][2023-04-07 13:45:08,914]: Pwd didn't matched with databse
+[INFO][db-connection][2023-04-07 13:59:36,015]: Data fetched from userform
+[INFO][db-connection][2023-04-07 13:59:36,017]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 13:59:36,017]: {'request_raised_for': 'Balance Transfer', 'request_number': 'BT20234130690', 'request_date': datetime.date(2023, 4, 7), 'fname': 'Surendar', 'mname': '', 'lname': 'Goyal', 'gender': 'Male', 'dob': '1957-05-27', 'address': 'Mayur Vihar Ph - II ', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'skgoyal@gmail.com', 'mobile': '9871654321', 'salary': '220000', 'liability': '120000', 'dependent': '5'}
+[INFO][db-connection][2023-04-07 13:59:36,020]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[ERROR][db-connection][2023-04-07 13:59:37,187]: Some error while inserting the record,cannot encode object: datetime.date(2023, 4, 7), of type: <class 'datetime.date'>
+[INFO][db-connection][2023-04-07 14:00:20,782]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 14:00:22,126]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 14:00:22,357]: Record inserted in mongo db for signup form
+[INFO][db-connection][2023-04-07 14:00:40,937]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 14:00:41,154]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 14:00:41,155]: Pwd matched with databse
+[ERROR][db-connection][2023-04-07 14:00:41,414]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-07 14:06:38,936]: Data fetched from userform
+[INFO][db-connection][2023-04-07 14:06:38,937]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 14:06:38,937]: {'request_raised_for': 'Balance Transfer', 'request_number': 'BT20234945460', 'request_date': datetime.date(2023, 4, 7), 'request_for': 'Balance Transfer', 'fname': 'Surendar', 'mname': '', 'lname': 'Goyal', 'gender': 'Male', 'dob': '1957-04-27', 'address': 'Mayur Vihar Ph - II', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'skgoyal@gmail.com', 'mobile': '09871654321', 'salary': '220000', 'liability': '120000', 'dependent': '5'}
+[INFO][db-connection][2023-04-07 14:06:38,939]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[ERROR][db-connection][2023-04-07 14:06:40,128]: Some error while inserting the record,cannot encode object: datetime.date(2023, 4, 7), of type: <class 'datetime.date'>
+[INFO][db-connection][2023-04-07 14:07:08,370]: Data fetched from signup form
+[INFO][db-connection][2023-04-07 14:07:09,766]: Data fetched for pwd matching
+[INFO][db-connection][2023-04-07 14:07:09,767]: Pwd matched with databse
+[ERROR][db-connection][2023-04-07 14:07:10,026]: Some error while fetching data from db or loading data into form
+[INFO][db-connection][2023-04-07 14:42:49,278]: Data fetched from userform
+[INFO][db-connection][2023-04-07 14:42:49,279]: Dictionary created to insert record in mongodb
+[INFO][db-connection][2023-04-07 14:42:49,279]: {'request_raised_for': 'Balance Transfer', 'request_number': 'BT20234198010', 'request_date': datetime.date(2023, 4, 7), 'request_for': 'Balance Transfer', 'fname': 'Surendar', 'mname': '', 'lname': 'Goyal', 'gender': 'Male', 'dob': '1957-04-27', 'address': 'Mayur Vihar Ph - II', 'pincode': '110091', 'state': 'The Govt. of NCT of Delhi', 'marital_status': 'Married', 'email': 'skgoyal@gmail.com', 'mobile': '09871654321', 'salary': '220000', 'liability': '120000', 'dependent': '5'}
+[INFO][db-connection][2023-04-07 14:42:49,281]: Collection(Database(MongoClient(host=['ac-ijeqlka-shard-00-01.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-00.fbdmddg.mongodb.net:27017', 'ac-ijeqlka-shard-00-02.fbdmddg.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-p5huba-shard-0', tls=True, tlscafile='C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\certifi\\cacert.pem'), 'test'), 'loanbuffet')
+[ERROR][db-connection][2023-04-07 14:42:50,461]: Some error while inserting the record,cannot encode object: datetime.date(2023, 4, 7), of type: <class 'datetime.date'>
+[INFO][db-connection][2023-04-07 14:45:16,364]: Data fetched from userform

@@ -9,7 +9,7 @@ import json
 from flask.ctx import after_this_request
 import pandas as pd
 import random as rd
-from datetime import date
+from datetime import date, datetime
 from connection.db_connect_mongo import *
 from config.logger import *
 from connection.dbconfig import *
@@ -90,8 +90,12 @@ def requestformpage():
     elif request_for == "Home Loan":
         req_num = "HL"+str(date.today().year)+str(date.today().month)+str(rd.randrange(100000,999999, 90))
 
+    req_date = datetime.today()
+
     record = {'request_raised_for':request_for,
               'request_number' : req_num,
+              'request_date' : req_date,
+              'request_for' : request_for,
               'fname':fname,
               'mname':mname,
               'lname':lname,
@@ -117,7 +121,7 @@ def requestformpage():
     except Exception as e:
         logger.error(f"Some error while inserting the record,{e}")
 
-    return render_template('userform_pass.html', request_number=req_num, request_for=request_for, fname=fname, mname=mname, lname=lname, gender=gender,
+    return render_template('userform_pass.html', request_number=req_num, request_date=req_date, request_for=request_for, fname=fname, mname=mname, lname=lname, gender=gender,
                            dob=dob, address=address, pincode=pincode, state=state, marital_status=marital_status,
                            email=email, mobile=mobile, salary=salary, liability=liability, dependent=dependent)
 
@@ -206,6 +210,7 @@ def userpage():
         for data in query:
             if 'email' in data.keys():
                 req_num = data['request_number']
+                req_date = data['request_date']
                 request_for = data['request_raised_for']
                 fname = data['fname']
                 mname = data['mname']
@@ -222,7 +227,7 @@ def userpage():
                 liability = data['liability']
                 dependent = data['dependent']
                 logger.info("momgo db query ran successfully")
-        return render_template('userpage.html', req_num=req_num, request_for=request_for, fname=fname, mname=mname, lname=lname,
+        return render_template('userpage.html', req_num=req_num, req_date=req_date, request_for=request_for, fname=fname, mname=mname, lname=lname,
                                gender=gender, dob=dob, address=address, pincode=pincode, state=state, marital_status=marital_status,
                                  email=email, mobile=mobile, salary=salary, liability=liability, dependent=dependent)
     except Exception as e:
