@@ -1,16 +1,17 @@
 1. First Create an Virtual Environment
+   
     a. All commands need to run in cmd
 
     b. to install the virtual environment
     pip install virtualenv
 
     c. to create a virtual environment by name env
-    virtual env
+        virtualenv loanbuffet_env
 
     d.to activate the environment
-    env\scripts\acivate.bat
+    loanbuffet_env\scripts\acivate.bat
 
-2. Set up connection with MongoDB
+3. Set up connection with MongoDB
     You need to create an account on https://www.mongodb.com/ with Try free. You will create there id, password, name space and database.
 
     a. Create New Project
@@ -46,7 +47,7 @@
     pip install pymongo[srv]
     e. Click on "collections"/"browse collection"
 
-3. Issues while creating HTML forms
+4. Issues while creating HTML forms
     1. How to change background colour and make header, footer?
     2. How to give image on social media names?
     3. How to pass data from HTML forms to Database?
@@ -57,11 +58,11 @@
         c. Both links helps me a lot and I get to know about session.
     6. I get to know about secret_key while validating in login page
 
-4. I understand after creating db in mongodb, that pwd should inserted in DB as hash value
+5. I understand after creating db in mongodb, that pwd should inserted in DB as hash value
 
-5. Libraries I installed
+6. Libraries I installed
     1. pip install Flask-Session
     2. pip install passlib
     3. pip install pymongo[srv]
 
-6. I used Google Colab for my hit and trial methods.
+7. I used Google Colab for my hit and trial methods.
